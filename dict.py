@@ -19,4 +19,9 @@ car = {
 # print(va)
 
 car ["tinted"]=["factory","grade 0", "grade 1"]
-print(car)
+# print(car)
+# print(car.items())
+
+if "year" in car:
+    car["year"] = 2025
+    print(car)
