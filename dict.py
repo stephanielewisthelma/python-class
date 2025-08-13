@@ -24,4 +24,31 @@ car ["tinted"]=["factory","grade 0", "grade 1"]
 
 if "year" in car:
     car["year"] = 2025
-    print(car)
+    # print(car)
+
+
+    # remove from dictionary
+# del car
+# print (car)
+
+# for x in car:
+    # print (x)
+
+# for x in car:
+#     if x.startswith("b"):
+#         result = x.upper
+#         print(result)
+
+for key in car.keys():print(key)
+
+mycopy = car.copy()
+# print(mycopy)
+
+user1 ={
+    "name":"korede",  "gender":"female"}
+user2 ={
+    "name":"korry",  "gender":"male"}
+user3 ={
+    "name":"ade", "gender":"female"}
+users ={"first":user1,"second":user2,"third":user3}
+print (users)
