@@ -83,4 +83,15 @@ def ispalidrone(str):
 # print(ispalidrone("ebuBE"))
 
 
+name = "james"
+# print(len(name)) 
 
+# print (name.upper())
+# print(name.lower())
+
+sentence = "programming in class"
+# print (sentence[3:7])
+# print (sentence.replace("class", "school"))
+# print (sentence.replace(" ", ""))
+
+if"class" in sentence: print("true")
