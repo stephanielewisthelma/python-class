@@ -94,4 +94,12 @@ sentence = "programming in class"
 # print (sentence.replace("class", "school"))
 # print (sentence.replace(" ", ""))
 
-if"class" in sentence: print("true")
+# if"class" in sentence: print("true")
+
+# Write a program that asks for a user’s first name and last name, then prints:
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+full_name = first_name + " " + last_name
+total_letters = len(full_name.replace(" ", ""))
+
+print(f"Hello {full_name}! Your name has {total_letters} letters.")
