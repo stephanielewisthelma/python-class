@@ -30,6 +30,8 @@ class Laptop():
         self.laptopType = laptopType
         self.color =color
         self.ram =ram
+        self.serialNumber=serialNumber
+        self.year=year
 
 l1 = Laptop("dell" ,"blue" , "16gb", "SN-LPT-9X3H2K47","2010")
 l2 = Laptop("HP", "ash", "64gb", "SN-HPQ-7M2D8P11","2019")
@@ -41,23 +43,35 @@ l5 = Laptop("asus", "black", "8gb", "SN-ASU-6B1K5F84","2009")
 print(l1.laptopType)
 print(l1.color)
 print(l1.ram)
-
+print (l1.serialNumber)
+print(l1.year)
 
 print(l2.laptopType)
 print(l2.color)
 print(l2.ram)
+print (l2.serialNumber)
+print(l2.year)
+
 
 
 print(l3.laptopType)
 print(l3.color)
 print(l3.ram)
+print (l3.serialNumber)
+print(l3.year)
+
 
 
 print(l4.laptopType)
 print(l4.color)
 print(l4.ram)
+print (l4.serialNumber)
+print(l4.year)
+
 
 
 print(l5.laptopType)
 print(l5.color)
 print(l5.ram)
+print (l5.serialNumber)
+print(l5.year)
