@@ -33,7 +33,7 @@ class Laptop():
 
 l1 = Laptop("dell" ,"blue" , "16gb", "SN-LPT-9X3H2K47","2010")
 l2 = Laptop("HP", "ash", "64gb", "SN-HPQ-7M2D8P11","2019")
-l3 = Laptop("Acer", "red", "32gb" ,"SN-DELL-5A9R4T62", )
+l3 = Laptop("Acer", "red", "32gb" ,"SN-DELL-5A9R4T62", "2020")
 l4 = Laptop("macbook", "ash", "12gb" ,"SN-LEN-3W8Q7C90")
 l5 = Laptop("asus", "black", "8gb", "SN-ASU-6B1K5F84","")
 
