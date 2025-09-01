@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # arr = np.array([1,2,3,4,5])
 
@@ -49,3 +50,11 @@ print("Sales Data: \n",sales)
 print("Total per product:" ,sales.sum(axis=1))
 
 print("Average eggs sold:" ,sales[::,2].mean())
+
+days =[1,2,3,4,5]
+sales =[40,60,50,70,90]
+
+plt.plot (days,sales,marker='o')
+plt.xlabel("Day")
+plt.ylabel("Unit sold")
+plt.show()
