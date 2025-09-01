@@ -44,3 +44,4 @@ sales = np.array([
 ])
 
 print("Sales Data: \n",sales)
+print("Total per product:" ,sales.sum(axis=0))
