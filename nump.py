@@ -27,10 +27,10 @@ newArr = arr.astype('i')
 # print(newArr.dtype)
 
 arr =np.array([[1,2,3], [4,5,6],[40,50,60]])
-# print(arr.shape)
+print(arr.shape)
 # print(arr.size)
 
-# print(arr[0,0])
+print(arr[0,0])
 
 
 print(np.random.rand(300,1))
