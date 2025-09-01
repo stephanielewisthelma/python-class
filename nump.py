@@ -9,10 +9,10 @@ import numpy as np
 # print (arr)
 
 arr = np.array ([[1,2,3] ,[4,5,6]])
-# print (arr)
+print (arr)
 
 arr = np.array ([[[1,2,3] ,[4,5,6], [7,8,9]]])
-# print (arr.ndim)
+print (arr.ndim)
 
 
 # arr = np.array([1,2,3],ndim=6)
