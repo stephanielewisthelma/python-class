@@ -24,11 +24,11 @@ fruits =np.array (["mango","apple","lemon","orange"])
 arr =np.array ([10,20,30,40])
 newArr = arr.astype('i')
 print(newArr)
-# print(newArr.dtype)
+print(newArr.dtype)
 
 arr =np.array([[1,2,3], [4,5,6],[40,50,60]])
 print(arr.shape)
-# print(arr.size)
+print(arr.size)
 
 print(arr[0,0])
 
