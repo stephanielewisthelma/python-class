@@ -44,4 +44,8 @@ sales = np.array([
 ])
 
 print("Sales Data: \n",sales)
-print("Total per product:" ,sales.sum(axis=0))
+# print("Total per product:" ,sales.sum(axis=0))
+
+print("Total per product:" ,sales.sum(axis=1))
+
+print("Average eggs sold:" ,sales[::,2].mean())
