@@ -3,10 +3,10 @@ import numpy as np
 # arr = np.array([1,2,3,4,5])
 
 # print(arr)
-# print(type (arr))
+print(type (arr))
 
 # arr = np.array((45))
-# print (arr)
+print (arr)
 
 arr = np.array ([[1,2,3] ,[4,5,6]])
 print (arr)
