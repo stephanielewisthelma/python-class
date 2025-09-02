@@ -44,17 +44,29 @@ sales = np.array([
     [65,42,28]
 ])
 
-print("Sales Data: \n",sales)
+# print("Sales Data: \n",sales)
 # print("Total per product:" ,sales.sum(axis=0))
 
-print("Total per product:" ,sales.sum(axis=1))
+# print("Total per product:" ,sales.sum(axis=1))
 
-print("Average eggs sold:" ,sales[::,2].mean())
+# print("Average eggs sold:" ,sales[::,2].mean())
 
-days =[1,2,3,4,5]
-sales =[40,60,50,70,90]
+# days =[1,2,3,4,5]
+# sales =[40,60,50,70,90]
 
-plt.plot (days,sales,marker='o')
-plt.xlabel("Day")
-plt.ylabel("Unit sold")
+# plt.plot (days,sales,marker='o')
+# plt.xlabel("Day")
+# plt.ylabel("Unit sold")
+# plt.show()
+
+products =["bread", "milk","eggs"]
+unit_sold =[300,220,180]
+
+plt.bar(products,unit_sold,color=['blue','green','orange'])
+
+plt.title("salesover 5 days")
+plt.xlabel("unit sold per product")
+plt.ylabel("units")
 plt.show()
+
+print("My Name is Stephanie")
