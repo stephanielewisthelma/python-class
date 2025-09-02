@@ -6,4 +6,9 @@ mean_value = purchases.mean()
 
 print (mean_value)
 
-data =np.array([])
+data =np.array([45,50,52,55,60,65,150,200])
+
+averagr =data.mean()
+middle = np.median(data)
+
+print(f"mean: {averagr}\nmedian:{middle}")
