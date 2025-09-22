@@ -1,15 +1,15 @@
 import pandas as pd
 
 
-data = {
-    "Name": ["john", "korede", "daniel"],
-    "Age": [25, 30, 28],
-    "City":["rivers","imo","lagos"]
-}
+# data = {
+#     "Name": ["john", "korede", "daniel"],
+#     "Age": [25, 30, 28],
+#     "City":["rivers","imo","lagos"]
+# }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-print(df)
+# print(df)
 
 
 # data ={
@@ -21,3 +21,7 @@ print(df)
 # df = pd.DataFrame(data)
 
 # print(df)
+
+data = pd.read_csv("titanic.csv")
+print(data.head())
+print(data.tail())
