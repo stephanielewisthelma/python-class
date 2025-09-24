@@ -22,10 +22,15 @@ import pandas as pd
 
 # print(df)
 
-# data = pd.read_csv("titanic.csv")
-# print(data.head())
-# print(data.tail())
-
-data = pd.read_csv("student_data.csv")
+data = pd.read_csv("titanic.csv")
 print(data.head())
 print(data.tail())
+print(data["Age"].fillna(data["Age"].median(),inplace = True))
+# print (data["Age"].fillna(data["Age"].median()))
+# print (data.drop())
+
+# data = pd.read_csv("student_data.csv")
+# print(data.head())
+# print(data.tail())
+# print(data.isnull().sum())
+
