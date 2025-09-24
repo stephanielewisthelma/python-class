@@ -34,3 +34,5 @@ print(data["Age"].fillna(data["Age"].median(),inplace = True))
 # print(data.tail())
 # print(data.isnull().sum())
 
+# regression and classification
+
