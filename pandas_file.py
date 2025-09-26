@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 # data = {
@@ -23,9 +25,18 @@ import pandas as pd
 # print(df)
 
 data = pd.read_csv("titanic.csv")
-print(data.head())
-print(data.tail())
-print(data["Age"].fillna(data["Age"].median(),inplace = True))
+print ("shape of dataset:",data.shape)
+print ("\nfirst five rows \n:",data.head)
+print ("\ndataset info: \n")
+print (data.info())
+print("\n summary statistics (numeric column)\n",data.descripe())
+
+# missing value
+
+
+# print(data.head())
+# print(data.tail())
+# print(data["Age"].fillna(data["Age"].median(),inplace = True))
 # print (data["Age"].fillna(data["Age"].median()))
 # print (data.drop())
 
